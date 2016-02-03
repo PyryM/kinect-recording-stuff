@@ -1,0 +1,16 @@
+{
+	"name": "kinect-recorder",
+	"version": "0.0.1",
+	"description": "record kinect2 skeletons",
+	"main": "record.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Pyry Matikainen <pkmatikainen@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"express": "~4.9.5",
+		"socket.io": "~1.1.0",
+		"kinect2": "*"
+	}
+}
